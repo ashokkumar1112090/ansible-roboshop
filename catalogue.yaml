@@ -11,7 +11,7 @@
 
    - name: Install  node.js package on version 1.6.1.
      ansible.builtin.package:
-      name: nodejs -y
+      name: nodejs 
       state: present
 
    - name: create roboshop system user
